@@ -764,7 +764,7 @@
                 }).then(function (result) {
                     onCallback && onCallback(result);
                 }).catch(function (error) {
-                    onCallback && onCallback({ error: error });
+                    onCallback && onCallback({ error: DemoApp.initData });
                 });
             }
         }
